@@ -6,8 +6,10 @@ Crypt.php
 ---------
 
 **Instantiate**
+```php
 	include_once( 'Crypt.php' );
 	$Crypt = new Crypt();
+```
 
 **Crypt::decrypt**( string *$data*, string *$key* )
 returns string
