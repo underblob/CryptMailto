@@ -87,6 +87,7 @@ CryptMailto.js
 **CryptMailto.decryptMailTags**( string *key* )  
 returns void  
 Uses jQuery to decrypt all encrypted anchors on the page with the `.mailto` class.  
+  
 Before:  
 ```html
 	<a class="mailto">ENCRYPTEDEMAIL</a>
