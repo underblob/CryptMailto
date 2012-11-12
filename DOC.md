@@ -65,17 +65,18 @@ Crypt.js
 
 **Crypt.decrypt**( string *data*, string *key* )  
 returns string  
-Decrpyt a string using the same key from the encryption.  
+Decrypt a string using the same key from the encryption.  
 
-**Crypt.encrypt( string *data*, string *key* )  
+**Crypt.encrypt**( string *data*, string *key* )  
 returns string  
-Encrypt a key using a key.  
+Encrypt a string using a key.  
 
 
 CryptMailto.js
 --------------
 **Instantiate**
 ```html
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="Crypt.js"></script>
 	<script src="CryptMailto.js"></script>
 	<script>
@@ -84,8 +85,8 @@ CryptMailto.js
 ```
 
 **CryptMailto.decryptMailTags**( string *key* )  
-returns null  
-Uses jQuery to decrypt all encrypted anchors on the page with the .mailto class.  
+returns void  
+Uses jQuery to decrypt all encrypted anchors on the page with the `.mailto` class.  
 Before:  
 ```html
 	<a class="mailto">ENCRYPTEDEMAIL</a>
