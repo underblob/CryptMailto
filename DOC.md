@@ -36,7 +36,7 @@ This random key is generated everytime **CryptMailto** is intantiated.
 **CryptMailto::convertAnchors**( string *$html* )  
 returns string  
 Finds all email addresses in a string and formats them as anchors:  
-```php
+```html
 	<a class="mailto">ENCRYPTEDEMAIL</a>
 ```
 
@@ -47,7 +47,7 @@ Encrypts a string.
 **CryptMail::encryptMailtoAnchor**( string *$str* )  
 returns string  
 Encrypts a string and formats it as an anchor:  
-```php
+```html
 	<a class="mailto">ENCRYPTEDEMAIL</a>
 ```
 
@@ -56,7 +56,7 @@ Crypt.js
 --------
 
 **Instantiate**
-```javascript
+```html
 	<script src="Crypt.js"></script>
 	<script>
 	var CryptObj = new Crypt();
@@ -75,7 +75,7 @@ Encrypt a key using a key.
 CryptMailto.js
 --------------
 **Instantiate**
-```javascript
+```html
 	<script src="Crypt.js"></script>
 	<script src="CryptMailto.js"></script>
 	<script>
