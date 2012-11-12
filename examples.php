@@ -1,7 +1,7 @@
 <?php
 
-include( 'inc/php/Crypt.php' );
-include( 'inc/php/CryptMailto.php' );
+include_once( 'Crypt.php' );
+include_once( 'CryptMailto.php' );
 $CM 		= new CryptMailto();
 
 $html 		= <<<HTML

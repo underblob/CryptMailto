@@ -8,7 +8,7 @@ robots/crawlers. The encrypted email is then decrypted in the view with Javascri
 Usage Examples
 --------------
 
-For detailed examples on how to use **CryptMailto**, see examples.html
+For detailed examples on how to use **CryptMailto**, open examples.html in your browser.
 
 
 Credits
