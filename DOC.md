@@ -11,13 +11,13 @@ Crypt.php
 	$Crypt = new Crypt();
 ```
 
-**Crypt::decrypt**( string *$data*, string *$key* )
-returns string
-Decrypt a string using the same key from the encryption.
+**Crypt::decrypt**( string *$data*, string *$key* )  
+returns string  
+Decrypt a string using the same key from the encryption.  
 
-**Crypt::encrypt**( string *$data*, string *$key* )
-returns string
-Encrypt a string using a key.
+**Crypt::encrypt**( string *$data*, string *$key* )  
+returns string  
+Encrypt a string using a key.  
 
 
 CryptMailto.php
