@@ -1,5 +1,5 @@
-Documentation
-=============
+CryptMailto Documentation
+=========================
 
 
 Crypt.php
